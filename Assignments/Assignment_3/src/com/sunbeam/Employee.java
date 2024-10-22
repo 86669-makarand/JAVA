@@ -67,10 +67,11 @@ public class Employee {
 		System.out.println("Enter the Salary : ");
 		salary = sc.nextDouble();
 		System.out.println("");
-		if(salary < 0)
+		if(salary <= 0)
 		{
 //			this.salary = salary;
 			System.out.println("Salary must be positive !!!!!");
+			salary = 0;
 
 		}
 		else
